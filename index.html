@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로또수첩 개인정보처리방침</title>
+  <style>
+    body { font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+           max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.7;
+           color: #16181d; background: #f5f6f8; }
+    h1 { color: #0f6e63; font-size: 24px; }
+    h2 { font-size: 18px; margin-top: 28px; color: #0a5048; }
+    ul { padding-left: 20px; }
+    li { margin: 8px 0; }
+    .note { background: #eaf4f2; padding: 12px 14px; border-radius: 10px; font-size: 15px; }
+    .updated { color: #666; font-size: 14px; margin-top: 32px; }
+    a { color: #0f6e63; }
+  </style>
+</head>
+<body>
+  <h1>로또수첩 개인정보처리방침</h1>
+
+  <p>로또수첩(이하 "앱")은 회원가입·로그인이 없으며, 사용자가 만든 번호·등록한 용지·복권 구입 기록을
+  <strong>사용자 기기 내부에만</strong> 저장합니다. 개발자는 이 데이터에 접근할 수 없고,
+  앱은 이를 외부 서버로 전송하지 않습니다.</p>
+
+  <p class="note">로또수첩은 동행복권의 공식 앱이 아니며, 복권을 판매하거나 구매를 대행하지 않습니다.</p>
+
+  <h2>1. 앱이 저장하는 정보</h2>
+  <ul>
+    <li>생성·저장한 번호, QR로 등록한 용지의 회차와 번호, 채점 결과, 복권 가계부(구입일·게임·금액·당첨금·메모)는
+      기기 내 로컬 데이터베이스에만 저장됩니다.</li>
+    <li>글씨 크기·화면 모드·추첨일 알림 같은 앱 설정도 기기 내부에만 저장됩니다.</li>
+  </ul>
+
+  <h2>2. 카메라 (QR 등록 시에만)</h2>
+  <ul>
+    <li>용지 QR을 등록할 때만 카메라 권한을 요청합니다. QR 해석은 기기 안에서만 이루어지며,
+      카메라 화면이나 사진을 저장하거나 외부로 전송하지 않습니다.</li>
+    <li>QR에서 읽은 공식 결과 확인 주소는 사용자가 누를 때만 외부 브라우저로 엽니다.</li>
+  </ul>
+
+  <h2>3. 당첨 결과 받기</h2>
+  <ul>
+    <li>채점을 위해 앱은 공개된 당첨번호 데이터를 내려받습니다. 기본 경로는 개발자가 공개 웹 호스팅(GitHub Pages)에 올린
+      결과 파일이며, 받지 못하면 동행복권 웹사이트의 공개 당첨결과를 직접 조회합니다.</li>
+    <li>이때 사용자의 번호·기록 등 앱 데이터는 보내지 않습니다. 다만 일반적인 인터넷 통신과 마찬가지로
+      해당 웹사이트 운영자는 접속 IP 주소 등 기술 정보를 기록할 수 있습니다.</li>
+  </ul>
+
+  <h2>4. 알림 (사용자 선택)</h2>
+  <ul>
+    <li>추첨일 알림은 기본으로 꺼져 있으며, 사용자가 켠 경우에만 기기 안에서 예약해 표시합니다.
+      알림을 위해 외부 서버로 정보를 보내지 않습니다.</li>
+  </ul>
+
+  <h2>5. 백업 (사용자 선택)</h2>
+  <ul>
+    <li><strong>자동 사본</strong>은 기기 내부의 앱 전용 저장 공간에만 만들어집니다.</li>
+    <li><strong>백업 파일 내보내기</strong>는 사용자가 직접 고른 폴더나 공유 대상으로만 저장·전달됩니다.</li>
+    <li><strong>Android 기기 백업</strong>: 휴대폰의 Google 백업 설정이 켜져 있으면 Android 운영체제가
+      앱 데이터를 사용자 본인 Google 계정에 백업할 수 있습니다. 개발자는 이 백업에 접근할 수 없습니다.</li>
+  </ul>
+
+  <h2>6. 광고</h2>
+  <ul>
+    <li>앱은 무료 제공을 위해 Google AdMob 광고를 표시합니다. 광고 제공 과정에서 Google은
+      광고 식별자 등 기기 정보를 처리할 수 있습니다. 자세한 내용은
+      <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 참고하세요.</li>
+    <li>유럽경제지역(EEA)·영국·스위스에서 앱을 이용하는 경우, 광고를 위한 개인정보 처리에 대한 동의 여부를 묻는 안내가 표시되며 앱 설정의 <strong>광고 개인정보 선택</strong>에서 언제든 선택을 변경할 수 있습니다.</li>
+    <li>앱 내 <strong>광고 제거 평생권</strong>을 구매하면 광고가 표시되지 않습니다.</li>
+  </ul>
+
+  <h2>7. 결제</h2>
+  <ul>
+    <li>광고 제거 평생권 결제는 Google Play가 처리하며, 앱은 카드번호 등 결제 정보를 수집·저장하지 않습니다.</li>
+  </ul>
+
+  <h2>8. 이용 연령</h2>
+  <p>복권은 만 19세 이상만 구매할 수 있습니다. 앱은 미성년자를 대상으로 하지 않으며,
+  아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>이메일: <a href="mailto:golmok.support@gmail.com">golmok.support@gmail.com</a></p>
+
+  <p class="updated">최종 갱신: 2026-10-28</p>
+</body>
+</html>
